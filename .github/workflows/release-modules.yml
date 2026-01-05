@@ -38,4 +38,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx semantic-release --extends ./${{ matrix.module_path }}/.releaserc.json
+          npx semantic-release-monorepo --extends ./${{ matrix.module_path }}/.releaserc.json
