@@ -1,4 +1,4 @@
 {
-    "extends": "../../../.releaserc.json",
+    "extends": ["semantic-release-monorepo"],
     "tagFormat": "services-webserver-cluster-v${version}"
   }

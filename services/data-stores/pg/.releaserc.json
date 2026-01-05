@@ -1,4 +1,4 @@
 {
-    "extends": "../../../.releaserc.json",
+    "extends": ["semantic-release-monorepo"],
     "tagFormat": "data-stores-pg-v${version}"
   }
