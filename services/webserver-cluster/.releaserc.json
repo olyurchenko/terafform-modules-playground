@@ -1,0 +1,4 @@
+{
+    "extends": "../../../.releaserc.json",
+    "tagFormat": "services-webserver-cluster-v${version}"
+  }
